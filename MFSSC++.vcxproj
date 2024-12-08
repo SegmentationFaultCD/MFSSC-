@@ -127,6 +127,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="source\ast.ixx" />
+    <ClCompile Include="source\lexer.ixx" />
     <ClCompile Include="source\main.ixx" />
     <ClCompile Include="source\parser.ixx" />
   </ItemGroup>
