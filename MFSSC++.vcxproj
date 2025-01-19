@@ -126,10 +126,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\ast.ixx" />
-    <ClCompile Include="source\lexer.ixx" />
+    <ClCompile Include="source\analysis\analysis.ixx" />
+    <ClCompile Include="source\analysis\semantic_analyzer.ixx" />
     <ClCompile Include="source\main.ixx" />
-    <ClCompile Include="source\parser.ixx" />
+    <ClCompile Include="source\analysis\lexer.ixx" />
+    <ClCompile Include="source\analysis\parser.ixx" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="LICENSE.txt" />
